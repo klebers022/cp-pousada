@@ -30,10 +30,12 @@ header nav ul  {
 header ul li a {
     color: white;
     text-decoration: none;
+    transition: color 0.4ms;
 }
 
-header nav ul li:hover{
-    transform: scale(1.1);
+header nav ul li a:hover{
+    transform: scale(1.1);  
+    color: #F29422;
 }
 
 header h1{
@@ -128,4 +130,15 @@ footer p {
 .icon:hover {
     transform: scale(1.1);
 }
+
+.header{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.199);
+    filter: blur(80%);
+    height: auto;
+}
+
+/* carrosel de imagens  */
+
+
 
